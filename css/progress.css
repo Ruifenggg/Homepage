@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root {
     --blue: #3498db;
@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: 'Mulish', sans-serif;
     background-color: var(--background);
     display: flex;
     height: 100vh;
