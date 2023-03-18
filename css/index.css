@@ -19,3 +19,14 @@ body {
     justify-content: space-between;
 }
 
+.circle {
+    background-color: lightgrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+}
+
