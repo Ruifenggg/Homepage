@@ -13,13 +13,21 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    overflow: hidden;
     color:white;
 }
 
 .container{
     text-align: center;
+}
+
+.home-icon {
+    float: right;
+    color: yellow;
+}
+
+.home-icon:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
 .progress-container {
