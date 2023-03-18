@@ -31,6 +31,10 @@ body {
     font-size: 16px;
 }
 
+.circle:hover {
+    color: grey;
+}
+
 .content h1 {
     color: black;
     margin: 0;
