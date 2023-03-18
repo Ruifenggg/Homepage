@@ -62,3 +62,13 @@ body {
     }
 
 }
+
+.home-icon {
+    float: right;
+    color: lightgrey;
+}
+
+.home-icon:hover {
+    cursor: pointer;
+    color: #333333;
+}
