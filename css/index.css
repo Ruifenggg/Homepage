@@ -9,3 +9,7 @@ body {
     overflow: hidden;
     color:white;
 }
+
+.container {
+    text-align: center;
+}
