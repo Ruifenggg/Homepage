@@ -14,8 +14,6 @@ body{
 .home-icon {
     float: right;
     color: grey;
-    z-index: -1;
-    position: relative;
 }
 
 .home-icon:hover {
