@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Source Code Pro', monospace;
-    background-color: linear-gradient(grey, lightcyan);
+    background-color: lightblue;
     display: flex;
     height: 100vh;
     align-items: center;
