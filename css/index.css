@@ -29,6 +29,10 @@ body {
     font-size: 1.2rem;
 }
 
-.content {
-    
+.content h1 {
+    color: black;
+}
+
+.content small {
+    color: grey;
 }
