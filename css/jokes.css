@@ -14,18 +14,32 @@ body {
     box-shadow: 0px 0px 5px black;
     background-color: lightsalmon;
     padding: 30px;
-}
-
-.container h3 {
     text-align: center;
+
 }
 
-.container div {
-    text-align: center
+h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
 }
 
-.container button {
-    align-items: center;
-    justify-content: center;
-    
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
 }
+
+
+.btn {
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
