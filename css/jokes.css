@@ -11,6 +11,21 @@ body {
 }
 
 .container {
+    box-shadow: 0px 0px 5px black;
     background-color: lightsalmon;
     padding: 30px;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.container div {
+    text-align: center
+}
+
+.container button {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
