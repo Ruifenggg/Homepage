@@ -1,7 +1,4 @@
 
-:root {
-    --asian: yellow;
-}
 
 body {
     display: flex;
@@ -15,7 +12,7 @@ body {
 
 .container {
     box-shadow: 0px 0px 5px black;
-    background-color: var(--asian);
+    background-color: lightpink;
     padding: 30px;
     text-align: center;
 
