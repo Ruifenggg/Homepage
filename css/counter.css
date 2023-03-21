@@ -3,7 +3,7 @@
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: lightblue;
-    color: white;
+    color: grey;
     display: flex;
     height: 100vh;
     alight-items: center;
