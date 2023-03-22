@@ -1,7 +1,7 @@
-const container = document.getElementById('.container')
+const container = document.getElementById('container')
 const colors = ['lightblue', 'lightgreen', 'lilac', 'violet', 'lightsalmon', 'lightpink', 'lightseagreen', 'lightsteelblue']
 
-const SQUARES = 1000
+const SQUARES = 500
 
 for(let i = 0; i < SQUARES; i++) {
     const square = document.createElement('div')
@@ -9,6 +9,11 @@ for(let i = 0; i < SQUARES; i++) {
     container.appendChild(square)
 
     square.addEventListener('mouseover', () => setColor(square))
+    square.addEventListener('mouseout', () => removeColor(square))
+}
+
+function removeColor(element) {
+    element.style.background = '1d1d1d'
 }
 
 function setColor(element) {
