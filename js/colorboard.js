@@ -1,7 +1,7 @@
 const container = document.getElementById('container')
 const colors = ['lightblue', 'lightgreen', 'lilac', 'violet', 'lightsalmon', 'lightpink', 'lightseagreen', 'lightsteelblue']
 
-const SQUARES = 500
+const SQUARES = 1000
 
 for(let i = 0; i < SQUARES; i++) {
     const square = document.createElement('div')
