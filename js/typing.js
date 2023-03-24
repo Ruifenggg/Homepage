@@ -2,7 +2,7 @@ const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
 const text = 'SHRIMP FRIED RICE SHALL RISE!'
 let idx = 1
-let speed = 300/speedEl.val
+let speed = 300/speedEl.value
 
 writeText()
 
@@ -16,3 +16,7 @@ function writeText() {
 
     setTimeout(writeText, speed)
 }
+
+speedEl.addEventListener('input' (e) => {
+    speed = 300/e.target.value
+})
