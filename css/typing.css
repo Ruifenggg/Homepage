@@ -9,7 +9,7 @@ body {
     justify-content: center;
     overflow: hidden;
     margin: 0;
-    background-color: gradient()
+    background: linear-gradient(lightblue, grey)
 }
 
 div {
