@@ -10,6 +10,7 @@ body {
     background: linear-gradient(grey, lightblue);
 }
 
+
 .container {
     box-shadow: 0px 0px 5px black;
     background-color: lightpink;
@@ -45,7 +46,7 @@ h3 {
 
 .home-icon {
     position: fixed;
-    right: 10px;
-    top: 10px;
+    right: 50px;
+    top: 50px;
     z-index: 2;
 }
