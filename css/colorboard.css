@@ -33,5 +33,6 @@ body {
 
 .home-icon {
     position: fixed;
-    x: 
+    right: 10px;
+    top: 10px;
 }
