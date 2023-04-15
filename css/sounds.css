@@ -32,7 +32,8 @@ body {
     color: lightgrey;
 }
 
-.home-icon:hover {
-    cursor: pointer;
-    color: #333333;
+.home-icon {
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
