@@ -15,14 +15,11 @@ body{
 }
 
 .home-icon {
-    float: right;
-    color: lightgrey;
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
 
-.home-icon:hover {
-    cursor: pointer;
-    color: #333333;
-}
 
 .search{
     height: 50px;
