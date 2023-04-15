@@ -15,7 +15,7 @@ body {
     background-color: lightpink;
     padding: 30px;
     text-align: center;
-
+    z-index: 1;
 }
 
 h3 {
@@ -47,4 +47,5 @@ h3 {
     position: fixed;
     right: 10px;
     top: 10px;
+    z-index: 2;
 }
