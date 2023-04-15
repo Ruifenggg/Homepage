@@ -12,14 +12,11 @@ body{
 }
 
 .home-icon {
-    float: right;
-    color: grey;
-}
+    position: fixed;
+    right: 10px;
+    top: 10px;
+} 
 
-.home-icon:hover {
-    cursor: pointer;
-    color: #333333;
-}
 
 .bg {
     background: url('https://wallpaperaccess.com/full/8791302.jpg');
@@ -36,3 +33,5 @@ body{
     font-size: 50px;
     color: white;
 }
+
+
