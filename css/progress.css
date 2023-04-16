@@ -23,13 +23,9 @@ body {
 }
 
 .home-icon {
-    color: grey;
-    font-szie: 7px;
-}
-
-.home-icon:hover {
-    cursor: pointer;
-    color: #333333;
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
 
 .progress-container {
